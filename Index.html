@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Picture Puzzle by epallab</title>
+<meta name="description" content="Privacy Policy for Picture Puzzle, an Android puzzle game by epallab. Explains what data is collected through Google AdMob advertising, how it is used, and the choices and rights available to players under GDPR and CCPA/CPRA.">
+<meta name="robots" content="index, follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://epallab.github.io/">
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-soft: #f6f7f9;
+    --bg-accent: #eef4fb;
+    --text: #1d2229;
+    --text-muted: #5d6674;
+    --heading: #10151c;
+    --border: #e2e6ec;
+    --border-strong: #cfd6df;
+    --link: #1a5fb4;
+    --link-hover: #123f78;
+    --accent: #2b6cb0;
+    --focus: #1a5fb4;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171c;
+      --bg-soft: #1b1f26;
+      --bg-accent: #1a2330;
+      --text: #d7dce3;
+      --text-muted: #9aa4b2;
+      --heading: #f0f3f7;
+      --border: #2a303a;
+      --border-strong: #3a424f;
+      --link: #79b8ff;
+      --link-hover: #a8d1ff;
+      --accent: #79b8ff;
+      --focus: #79b8ff;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: var(--accent);
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 0 0 6px 0;
+    z-index: 10;
+  }
+  .skip-link:focus { left: 0; }
+
+  .wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-inline: 20px;
+    padding-block: 0 56px;
+  }
+
+  header.page-head {
+    padding-block: 48px 28px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+
+  .eyebrow {
+    margin: 0 0 10px;
+    font-size: 0.8rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  h1 {
+    margin: 0 0 18px;
+    font-size: clamp(1.8rem, 5.5vw, 2.5rem);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--heading);
+    font-weight: 700;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .meta li {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 5px 14px;
+  }
+
+  .meta li b {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .summary {
+    background: var(--bg-accent);
+    border: 1px solid var(--border-strong);
+    border-radius: 10px;
+    padding: 20px 22px;
+    margin-bottom: 36px;
+  }
+
+  .summary h2 {
+    margin: 0 0 10px;
+    font-size: 1.05rem;
+    border: 0;
+    padding: 0;
+  }
+
+  .summary p:last-child { margin-bottom: 0; }
+
+  nav.toc {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin-bottom: 44px;
+    background: var(--bg-soft);
+  }
+
+  nav.toc h2 {
+    margin: 0 0 14px;
+    font-size: 1.05rem;
+    border: 0;
+    padding: 0;
+  }
+
+  nav.toc ol {
+    margin: 0;
+    padding-left: 1.3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 4px 28px;
+  }
+
+  nav.toc li { margin: 0; }
+
+  nav.toc a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  nav.toc a:hover { border-bottom-color: currentColor; }
+
+  section { margin-bottom: 40px; }
+
+  h2 {
+    margin: 0 0 16px;
+    padding-top: 6px;
+    font-size: 1.35rem;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: var(--heading);
+    font-weight: 700;
+    scroll-margin-top: 20px;
+  }
+
+  h3 {
+    margin: 28px 0 10px;
+    font-size: 1.08rem;
+    color: var(--heading);
+    font-weight: 600;
+  }
+
+  p { margin: 0 0 16px; }
+
+  ul, ol { margin: 0 0 16px; padding-left: 1.4em; }
+  li { margin-bottom: 8px; }
+  li:last-child { margin-bottom: 0; }
+
+  a {
+    color: var(--link);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    overflow-wrap: break-word;
+  }
+  a:hover { color: var(--link-hover); }
+
+  a:focus-visible,
+  .skip-link:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--bg-soft);
+    padding: 16px 18px;
+    border-radius: 0 8px 8px 0;
+    margin: 0 0 20px;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+
+  dl.data-list {
+    margin: 0 0 20px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  dl.data-list > div {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  dl.data-list > div:last-child { border-bottom: 0; }
+  dl.data-list > div:nth-child(odd) { background: var(--bg-soft); }
+
+  dl.data-list dt {
+    font-weight: 600;
+    color: var(--heading);
+    margin-bottom: 4px;
+  }
+
+  dl.data-list dd {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  .links-list { list-style: none; padding-left: 0; }
+  .links-list li {
+    padding-left: 18px;
+    position: relative;
+  }
+  .links-list li::before {
+    content: "\2192";
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+  }
+
+  .to-top {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+  .to-top:hover { color: var(--link); text-decoration: underline; }
+
+  hr.divider {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 0 0 40px;
+  }
+
+  footer.page-foot {
+    border-top: 1px solid var(--border);
+    padding-top: 26px;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+
+  footer.page-foot p { margin: 0 0 8px; }
+  footer.page-foot p:last-child { margin-bottom: 0; }
+
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    header.page-head { padding-block: 32px 22px; }
+    nav.toc, .summary { padding: 18px 16px; }
+    nav.toc ol { grid-template-columns: 1fr; }
+    dl.data-list > div { padding: 14px 16px; }
+  }
+
+  @media print {
+    body { font-size: 11pt; color: #000; background: #fff; }
+    nav.toc, .skip-link, .to-top { display: none; }
+    a { color: #000; }
+    section { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="wrap">
+
+  <header class="page-head">
+    <p class="eyebrow">Picture Puzzle &middot; Android</p>
+    <h1>Privacy Policy</h1>
+    <ul class="meta">
+      <li><b>Last Updated:</b> 15 September 2026</li>
+      <li><b>Effective:</b> 15 September 2026</li>
+      <li><b>Developer:</b> epallab</li>
+    </ul>
+  </header>
+
+  <main id="main">
+
+    <div class="summary">
+      <h2>In short</h2>
+      <p>
+        Picture Puzzle is an offline puzzle game. We do not ask you to create an account, we do not
+        ask for your name or email, and the game itself sends nothing about you to us. The one thing
+        that does collect data is the advertising we use to keep the game free: Google AdMob. This
+        policy explains exactly what AdMob collects, why, and how you can limit it. This summary is
+        for convenience only &mdash; the full sections below are what applies.
+      </p>
+    </div>
+
+    <nav class="toc" aria-labelledby="toc-heading">
+      <h2 id="toc-heading">Contents</h2>
+      <ol>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#information-we-collect">Information We Collect</a></li>
+        <li><a href="#automatically-collected-data">Automatically Collected Data</a></li>
+        <li><a href="#third-party-services">Third-Party Services</a></li>
+        <li><a href="#how-we-use-information">How We Use Information</a></li>
+        <li><a href="#legal-basis">Legal Basis for Processing (GDPR)</a></li>
+        <li><a href="#your-choices">Your Choices and Controls</a></li>
+        <li><a href="#childrens-privacy">Children&rsquo;s Privacy</a></li>
+        <li><a href="#gdpr-rights">Your Rights Under GDPR</a></li>
+        <li><a href="#ccpa-rights">Your Rights Under CCPA/CPRA</a></li>
+        <li><a href="#data-retention">Data Retention</a></li>
+        <li><a href="#data-security">Data Security</a></li>
+        <li><a href="#international-transfers">International Data Transfers</a></li>
+        <li><a href="#changes">Changes to This Privacy Policy</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ol>
+    </nav>
+
+    <section id="introduction">
+      <h2>1. Introduction</h2>
+      <p>
+        This Privacy Policy describes how information is handled in connection with <b>Picture
+        Puzzle</b> (the &ldquo;App&rdquo;), a mobile puzzle game for Android devices published on the
+        Google Play Store by <b>epallab</b> (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;).
+        epallab is an independent app developer. The App is built with the Unity game engine.
+      </p>
+      <p>
+        Picture Puzzle is a single-player game that runs on your device. It does not require an
+        account, a login, or an internet connection to play. It contains no in-app purchases. The
+        App is supported by advertising, which is delivered by Google AdMob and requires an internet
+        connection to display.
+      </p>
+      <p>
+        This policy applies only to the Picture Puzzle Android application. It does not apply to the
+        Google Play Store, to advertisers whose ads may appear in the App, or to any website or
+        service you may reach by tapping an ad. Those are governed by their own privacy policies.
+      </p>
+      <p>
+        By installing and using Picture Puzzle, you acknowledge the practices described in this
+        policy. If you do not agree with them, please do not use the App.
+      </p>
+      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="information-we-collect">
+      <h2>2. Information We Collect</h2>
+      <div class="callout">
+        <p>
+          <b>epallab does not collect, store, or receive any personally identifiable information
+          from you directly.</b> We operate no servers, no user accounts, and no databases of
+          player information.
+        </p>
+      </div>
+      <p>
+        We never ask you for your name, email address, phone number, postal address, date of birth,
+        photographs, contacts, or payment details, and the App contains no forms or sign-up screens
+        that could capture them. Your game progress, settings, and scores are stored locally on your
+        own device and are not transmitted to us. Uninstalling the App removes that local data.
+      </p>
+      <p>
+        Information <i>is</i>, however, collected automatically by our third-party advertising
+        partner, <b>Google AdMob</b>, when advertisements are requested and displayed in the App.
+        This collection happens between your device and Google&rsquo;s systems; the data goes to
+        Google, not to us. Section&nbsp;3 lists what is collected and Section&nbsp;4 explains
+        Google&rsquo;s role.
+      </p>
+      <p>
+        Separately, if you choose to email us using the address in Section&nbsp;15, we will
+        necessarily see your email address and whatever you write. We use that only to respond to
+        you and do not add it to any mailing list.
+      </p>
+      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="automatically-collected-data">
+      <h2>3. Automatically Collected Data</h2>
+      <p>
+        To request, display, and measure advertisements, the Google Mobile Ads (AdMob) software
+        development kit integrated into the App may collect and transmit the following categories of
+        data to Google:
+      </p>
+      <dl class="data-list">
+        <div>
+          <dt>Android Advertising ID (AAID)</dt>
+          <dd>
+            A resettable, pseudonymous identifier provided by Google Play services that is used to
+            recognise your device for advertising purposes. It is not your name and is not
+            permanently tied to you &mdash; you can reset or delete it at any time (see
+            Section&nbsp;7).
+          </dd>
+        </div>
+        <div>
+          <dt>IP address and approximate (coarse) location</dt>
+          <dd>
+            Your device&rsquo;s IP address is visible whenever it connects to Google&rsquo;s ad
+            servers, and a coarse location &mdash; typically at the level of a city, region, or
+            country &mdash; may be derived from it. The App does not request Android&rsquo;s precise
+            GPS location permission and does not access your exact location.
+          </dd>
+        </div>
+        <div>
+          <dt>Device and technical characteristics</dt>
+          <dd>
+            Device model and manufacturer, Android operating system version, device language and
+            locale settings, screen size, resolution and orientation, network connection type, and
+            similar technical attributes used to select and correctly render an ad.
+          </dd>
+        </div>
+        <div>
+          <dt>Ad interaction data</dt>
+          <dd>
+            Which ads were shown to you (impressions), whether you tapped them (clicks), how long an
+            ad was viewed, whether a rewarded video was watched to completion, and whether an ad was
+            closed or skipped.
+          </dd>
+        </div>
+        <div>
+          <dt>App usage events related to ad serving</dt>
+          <dd>
+            Limited in-app events tied to advertising, such as the App being opened or resumed, the
+            point at which an ad request is made, which ad placement was involved (banner,
+            interstitial, or rewarded video), and the version of the App and the ads SDK in use.
+          </dd>
+        </div>
+      </dl>
+      <p>
+        This data is collected by Google in its capacity as our advertising provider. We receive
+        access only to aggregated, non-identifying reporting &mdash; for example, total impressions,
+        total clicks, and estimated earnings for a given day or country. We cannot see, and are not
+        given, the data of any individual user.
+      </p>
+      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="third-party-services">
+      <h2>4. Third-Party Services</h2>
+      <p>
+        Google AdMob is the only third-party service integrated into Picture Puzzle that collects
+        data. The App contains no social media SDKs, no separate analytics platform, no crash
+        reporting service, and no advertising networks other than those Google works with to fill
+        ad inventory.
+      </p>
+
+      <h3>Google AdMob</h3>
+      <p>
+        AdMob is Google&rsquo;s mobile advertising platform. We use it to show banner ads,
+        interstitial (full-screen) ads, and rewarded video ads inside the App, and this advertising
+        revenue is what allows us to offer Picture Puzzle free of charge. When an ad slot needs to
+        be filled, the AdMob SDK on your device sends a request to Google containing the data
+        described in Section&nbsp;3, and Google selects and returns an advertisement.
+      </p>
+      <p>
+        In doing so, Google acts as an independent data controller for the data it collects, and its
+        own privacy policy and terms govern that processing. Google may also share data with, or
+        receive data from, the third-party advertising partners and ad exchanges it works with in
+        order to fill ad inventory. We encourage you to review Google&rsquo;s documentation:
+      </p>
+      <ul class="links-list">
+        <li>
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google
+          Privacy Policy</a>
+        </li>
+        <li>
+          <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How
+          Google uses information from sites or apps that use its services</a>
+        </li>
+        <li>
+          <a href="https://support.google.com/admob/answer/9012903" target="_blank" rel="noopener noreferrer">AdMob
+          advertising partners list</a>
+        </li>
+      </ul>
+      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="how-we-use-information">
+      <h2>5. How We Use Information</h2>
+      <p>
+        Because we do not receive your personal data, the uses below describe what the data
+        collected through AdMob is used for by Google on our behalf:
+      </p>
+      <ul>
+        <li>
+          <b>Ad delivery.</b> Selecting and serving banner, interstitial, and rewarded video ads
+          that are technically compatible with your device, network, and language.
+        </li>
+        <li>
+          <b>Ad personalization.</b> Where you have given consent, showing ads that Google considers
+          more relevant to you based on your advertising identifier and inferred interests. Without
+          consent, ads are served on a non-personalized basis, using contextual signals rather than
+          your interest profile.
+        </li>
+        <li>
+          <b>Frequency capping.</b> Limiting how often the same ad is repeated to you and spacing
+          out full-screen ads so the game stays playable.
+        </li>
+        <li>
+          <b>Fraud and abuse prevention.</b> Detecting invalid traffic, automated clicks, and other
+          abusive or fraudulent activity that would otherwise harm advertisers and the ad ecosystem.
+        </li>
+        <li>
+          <b>Aggregate analytics and reporting.</b> Producing summary statistics &mdash; impressions,
+          click-through rates, fill rates, and estimated revenue &mdash; that help us understand how
+          the App performs overall and how to improve it. These reports are aggregated and do not
+          identify individual users.
+        </li>
+      </ul>
+      <p>
+        We do not sell your personal information for money, we do not build profiles of players
+        ourselves, and we do not use any of this data to contact you.
+      </p>
+      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="legal-basis">
+      <h2>6. Legal Basis for Processing (GDPR)</h2>
+      <p>
+        If you are located in the European Economic Area, the United Kingdom, or Switzerland, the
+        General Data Protection Regulation requires a lawful basis for processing personal data. The
+        bases relied upon are:
+      </p>
+      <ul>
+        <li>
+          <b>Consent &mdash; Article 6(1)(a).</b> Personalized advertising and the use of your
+          Android Advertising ID for that purpose rely on your consent. Where required, a consent
+          message is presented in the App (using Google&rsquo;s User Messaging Platform) before
+          personalized ads are served, and you may decline or later change your choice. Declining
+          does not prevent you from playing the game; it means ads are shown on a non-personalized
+          basis.
+        </li>
+        <li>
+          <b>Legitimate interests &mdash; Article 6(1)(f).</b> Basic service functionality and the
+          prevention of fraud, invalid traffic, and abuse rely on the legitimate interests of
+          epallab and of Google in operating a functioning, secure, ad-supported application. Even
+          non-personalized ads require a minimum of data &mdash; such as your IP address and basic
+          device characteris
