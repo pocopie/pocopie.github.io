@@ -1,908 +1,899 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Pocopie Apps</title>
-<meta name="description" content="Privacy Policy for all Android apps published by Pocopie. Our apps work offline, need no account or login, and collect no data themselves; the only data collection is through Google AdMob advertising. Explains what AdMob collects, how it is used, our use of generative-AI-created assets, and your rights under GDPR and CCPA/CPRA.">
-<meta name="robots" content="index, follow">
-<meta name="color-scheme" content="light dark">
-<link rel="canonical" href="https://pocopie.github.io/">
-<style>
-  :root {
-    --bg: #ffffff;
-    --bg-soft: #f6f7f9;
-    --bg-accent: #eef4fb;
-    --text: #1d2229;
-    --text-muted: #5d6674;
-    --heading: #10151c;
-    --border: #e2e6ec;
-    --border-strong: #cfd6df;
-    --link: #1a5fb4;
-    --link-hover: #123f78;
-    --accent: #2b6cb0;
-    --focus: #1a5fb4;
-  }
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Pocopie Games &amp; Apps</title>
+    <meta
+      name="description"
+      content="Privacy Policy for Pocopie Android games and apps. Learn about local game data, optional photo features, Google AdMob advertising, privacy choices, data deletion, and how to contact us."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://pocopie.github.io/" />
+    <style>
+      :root {
+        --bg: #ffffff;
+        --bg-soft: #f6f7f9;
+        --bg-accent: #eef4fb;
+        --text: #1d2229;
+        --text-muted: #5d6674;
+        --heading: #10151c;
+        --border: #e2e6ec;
+        --border-strong: #cfd6df;
+        --link: #1a5fb4;
+        --link-hover: #123f78;
+        --accent: #2b6cb0;
+        --focus: #1a5fb4;
+      }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #14171c;
-      --bg-soft: #1b1f26;
-      --bg-accent: #1a2330;
-      --text: #d7dce3;
-      --text-muted: #9aa4b2;
-      --heading: #f0f3f7;
-      --border: #2a303a;
-      --border-strong: #3a424f;
-      --link: #79b8ff;
-      --link-hover: #a8d1ff;
-      --accent: #79b8ff;
-      --focus: #79b8ff;
-    }
-  }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #14171c;
+          --bg-soft: #1b1f26;
+          --bg-accent: #1a2330;
+          --text: #d7dce3;
+          --text-muted: #9aa4b2;
+          --heading: #f0f3f7;
+          --border: #2a303a;
+          --border-strong: #3a424f;
+          --link: #79b8ff;
+          --link-hover: #a8d1ff;
+          --accent: #79b8ff;
+          --focus: #79b8ff;
+        }
+      }
 
-  * { box-sizing: border-box; }
+      * {
+        box-sizing: border-box;
+      }
 
-  html {
-    scroll-behavior: smooth;
-    -webkit-text-size-adjust: 100%;
-  }
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
 
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 17px;
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          "Helvetica Neue",
+          Arial,
+          sans-serif;
+        font-size: 17px;
+        line-height: 1.7;
+        -webkit-font-smoothing: antialiased;
+      }
 
-  .skip-link {
-    position: absolute;
-    left: -9999px;
-    top: 0;
-    background: var(--accent);
-    color: #fff;
-    padding: 10px 16px;
-    border-radius: 0 0 6px 0;
-    z-index: 10;
-  }
-  .skip-link:focus { left: 0; }
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: 0;
+        background: var(--accent);
+        color: #fff;
+        padding: 10px 16px;
+        border-radius: 0 0 6px 0;
+        z-index: 10;
+      }
+      .skip-link:focus {
+        left: 0;
+      }
 
-  .wrap {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-inline: 20px;
-    padding-block: 0 56px;
-  }
+      .wrap {
+        max-width: 800px;
+        margin: 0 auto;
+        padding-inline: 20px;
+        padding-block: 0 56px;
+      }
 
-  header.page-head {
-    padding-block: 48px 28px;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 32px;
-  }
+      header.page-head {
+        padding-block: 48px 28px;
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 32px;
+      }
 
-  .eyebrow {
-    margin: 0 0 10px;
-    font-size: 0.8rem;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--text-muted);
-  }
+      .eyebrow {
+        margin: 0 0 10px;
+        font-size: 0.8rem;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: var(--text-muted);
+      }
 
-  h1 {
-    margin: 0 0 18px;
-    font-size: clamp(1.8rem, 5.5vw, 2.5rem);
-    line-height: 1.2;
-    letter-spacing: -0.02em;
-    color: var(--heading);
-    font-weight: 700;
-  }
+      h1 {
+        margin: 0 0 18px;
+        font-size: clamp(1.8rem, 5.5vw, 2.5rem);
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        color: var(--heading);
+        font-weight: 700;
+      }
 
-  .meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
 
-  .meta li {
-    font-size: 0.875rem;
-    color: var(--text-muted);
-    background: var(--bg-soft);
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    padding: 5px 14px;
-  }
+      .meta li {
+        font-size: 0.875rem;
+        color: var(--text-muted);
+        background: var(--bg-soft);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 5px 14px;
+      }
 
-  .meta li b {
-    color: var(--text);
-    font-weight: 600;
-  }
+      .meta li b {
+        color: var(--text);
+        font-weight: 600;
+      }
 
-  .summary {
-    background: var(--bg-accent);
-    border: 1px solid var(--border-strong);
-    border-radius: 10px;
-    padding: 20px 22px;
-    margin-bottom: 36px;
-  }
+      .summary {
+        background: var(--bg-accent);
+        border: 1px solid var(--border-strong);
+        border-radius: 10px;
+        padding: 20px 22px;
+        margin-bottom: 36px;
+      }
 
-  .summary h2 {
-    margin: 0 0 10px;
-    font-size: 1.05rem;
-    border: 0;
-    padding: 0;
-  }
+      .summary h2 {
+        margin: 0 0 10px;
+        font-size: 1.05rem;
+        border: 0;
+        padding: 0;
+      }
 
-  .summary p:last-child { margin-bottom: 0; }
+      .summary p:last-child {
+        margin-bottom: 0;
+      }
 
-  nav.toc {
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 22px 24px;
-    margin-bottom: 44px;
-    background: var(--bg-soft);
-  }
+      nav.toc {
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 22px 24px;
+        margin-bottom: 44px;
+        background: var(--bg-soft);
+      }
 
-  nav.toc h2 {
-    margin: 0 0 14px;
-    font-size: 1.05rem;
-    border: 0;
-    padding: 0;
-  }
+      nav.toc h2 {
+        margin: 0 0 14px;
+        font-size: 1.05rem;
+        border: 0;
+        padding: 0;
+      }
 
-  nav.toc ol {
-    margin: 0;
-    padding-left: 1.3em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 4px 28px;
-  }
+      nav.toc ol {
+        margin: 0;
+        padding-left: 1.3em;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 4px 28px;
+      }
 
-  nav.toc li { margin: 0; }
+      nav.toc li {
+        margin: 0;
+      }
 
-  nav.toc a {
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-  nav.toc a:hover { border-bottom-color: currentColor; }
+      nav.toc a {
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+      }
+      nav.toc a:hover {
+        border-bottom-color: currentColor;
+      }
 
-  section { margin-bottom: 40px; }
+      section {
+        margin-bottom: 40px;
+      }
 
-  h2 {
-    margin: 0 0 16px;
-    padding-top: 6px;
-    font-size: 1.35rem;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
-    color: var(--heading);
-    font-weight: 700;
-    scroll-margin-top: 20px;
-  }
+      h2 {
+        margin: 0 0 16px;
+        padding-top: 6px;
+        font-size: 1.35rem;
+        line-height: 1.3;
+        letter-spacing: -0.01em;
+        color: var(--heading);
+        font-weight: 700;
+        scroll-margin-top: 20px;
+      }
 
-  h3 {
-    margin: 28px 0 10px;
-    font-size: 1.08rem;
-    color: var(--heading);
-    font-weight: 600;
-  }
+      h3 {
+        margin: 28px 0 10px;
+        font-size: 1.08rem;
+        color: var(--heading);
+        font-weight: 600;
+      }
 
-  p { margin: 0 0 16px; }
+      p {
+        margin: 0 0 16px;
+      }
 
-  ul, ol { margin: 0 0 16px; padding-left: 1.4em; }
-  li { margin-bottom: 8px; }
-  li:last-child { margin-bottom: 0; }
+      ul,
+      ol {
+        margin: 0 0 16px;
+        padding-left: 1.4em;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      li:last-child {
+        margin-bottom: 0;
+      }
 
-  a {
-    color: var(--link);
-    text-decoration: underline;
-    text-underline-offset: 2px;
-    overflow-wrap: break-word;
-  }
-  a:hover { color: var(--link-hover); }
+      a {
+        color: var(--link);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        overflow-wrap: break-word;
+      }
+      a:hover {
+        color: var(--link-hover);
+      }
 
-  a:focus-visible,
-  .skip-link:focus-visible {
-    outline: 2px solid var(--focus);
-    outline-offset: 2px;
-    border-radius: 2px;
-  }
+      a:focus-visible,
+      .skip-link:focus-visible {
+        outline: 2px solid var(--focus);
+        outline-offset: 2px;
+        border-radius: 2px;
+      }
 
-  .callout {
-    border-left: 3px solid var(--accent);
-    background: var(--bg-soft);
-    padding: 16px 18px;
-    border-radius: 0 8px 8px 0;
-    margin: 0 0 20px;
-  }
-  .callout p:last-child { margin-bottom: 0; }
+      .callout {
+        border-left: 3px solid var(--accent);
+        background: var(--bg-soft);
+        padding: 16px 18px;
+        border-radius: 0 8px 8px 0;
+        margin: 0 0 20px;
+      }
+      .callout p:last-child {
+        margin-bottom: 0;
+      }
 
-  dl.data-list {
-    margin: 0 0 20px;
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    overflow: hidden;
-  }
+      dl.data-list {
+        margin: 0 0 20px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        overflow: hidden;
+      }
 
-  dl.data-list > div {
-    padding: 16px 20px;
-    border-bottom: 1px solid var(--border);
-  }
-  dl.data-list > div:last-child { border-bottom: 0; }
-  dl.data-list > div:nth-child(odd) { background: var(--bg-soft); }
+      dl.data-list > div {
+        padding: 16px 20px;
+        border-bottom: 1px solid var(--border);
+      }
+      dl.data-list > div:last-child {
+        border-bottom: 0;
+      }
+      dl.data-list > div:nth-child(odd) {
+        background: var(--bg-soft);
+      }
 
-  dl.data-list dt {
-    font-weight: 600;
-    color: var(--heading);
-    margin-bottom: 4px;
-  }
+      dl.data-list dt {
+        font-weight: 600;
+        color: var(--heading);
+        margin-bottom: 4px;
+      }
 
-  dl.data-list dd {
-    margin: 0;
-    color: var(--text-muted);
-    font-size: 0.95rem;
-  }
+      dl.data-list dd {
+        margin: 0;
+        color: var(--text-muted);
+        font-size: 0.95rem;
+      }
 
-  .links-list { list-style: none; padding-left: 0; }
-  .links-list li {
-    padding-left: 18px;
-    position: relative;
-  }
-  .links-list li::before {
-    content: "\2192";
-    position: absolute;
-    left: 0;
-    color: var(--text-muted);
-  }
+      .links-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      .links-list li {
+        padding-left: 18px;
+        position: relative;
+      }
+      .links-list li::before {
+        content: "\2192";
+        position: absolute;
+        left: 0;
+        color: var(--text-muted);
+      }
 
-  .to-top {
-    display: inline-block;
-    margin-top: 4px;
-    font-size: 0.82rem;
-    color: var(--text-muted);
-    text-decoration: none;
-  }
-  .to-top:hover { color: var(--link); text-decoration: underline; }
+      .to-top {
+        display: inline-block;
+        margin-top: 4px;
+        font-size: 0.82rem;
+        color: var(--text-muted);
+        text-decoration: none;
+      }
+      .to-top:hover {
+        color: var(--link);
+        text-decoration: underline;
+      }
 
-  hr.divider {
-    border: 0;
-    border-top: 1px solid var(--border);
-    margin: 0 0 40px;
-  }
+      hr.divider {
+        border: 0;
+        border-top: 1px solid var(--border);
+        margin: 0 0 40px;
+      }
 
-  footer.page-foot {
-    border-top: 1px solid var(--border);
-    padding-top: 26px;
-    color: var(--text-muted);
-    font-size: 0.9rem;
-  }
+      footer.page-foot {
+        border-top: 1px solid var(--border);
+        padding-top: 26px;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+      }
 
-  footer.page-foot p { margin: 0 0 8px; }
-  footer.page-foot p:last-child { margin-bottom: 0; }
+      footer.page-foot p {
+        margin: 0 0 8px;
+      }
+      footer.page-foot p:last-child {
+        margin-bottom: 0;
+      }
 
-  @media (max-width: 480px) {
-    body { font-size: 16px; }
-    header.page-head { padding-block: 32px 22px; }
-    nav.toc, .summary { padding: 18px 16px; }
-    nav.toc ol { grid-template-columns: 1fr; }
-    dl.data-list > div { padding: 14px 16px; }
-  }
+      @media (max-width: 480px) {
+        body {
+          font-size: 16px;
+        }
+        header.page-head {
+          padding-block: 32px 22px;
+        }
+        nav.toc,
+        .summary {
+          padding: 18px 16px;
+        }
+        nav.toc ol {
+          grid-template-columns: 1fr;
+        }
+        dl.data-list > div {
+          padding: 14px 16px;
+        }
+      }
 
-  @media print {
-    body { font-size: 11pt; color: #000; background: #fff; }
-    nav.toc, .skip-link, .to-top { display: none; }
-    a { color: #000; }
-    section { page-break-inside: avoid; }
-  }
-</style>
-</head>
-<body>
-<a class="skip-link" href="#main">Skip to content</a>
+      @media print {
+        body {
+          font-size: 11pt;
+          color: #000;
+          background: #fff;
+        }
+        nav.toc,
+        .skip-link,
+        .to-top {
+          display: none;
+        }
+        a {
+          color: #000;
+        }
+        section {
+          page-break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-<div class="wrap">
+    <div class="wrap">
+      <header class="page-head">
+        <p class="eyebrow">Pocopie &middot; Android Games &amp; Apps</p>
+        <h1>Privacy Policy</h1>
+        <ul class="meta">
+          <li><b>Last updated:</b> <time datetime="2026-10-03">3 October 2026</time></li>
+          <li><b>Effective:</b> <time datetime="2026-10-03">3 October 2026</time></li>
+          <li><b>Developer:</b> Pocopie</li>
+        </ul>
+      </header>
 
-  <header class="page-head">
-    <p class="eyebrow">Pocopie &middot; Android Apps</p>
-    <h1>Privacy Policy</h1>
-    <ul class="meta">
-      <li><b>Last Updated:</b> 16 September 2026</li>
-      <li><b>Effective:</b> 16 September 2026</li>
-      <li><b>Developer:</b> Pocopie</li>
-    </ul>
-  </header>
+      <main id="main">
+        <div class="summary">
+          <h2>Your privacy, at a glance</h2>
+          <p>
+            Pocopie games and apps covered by this policy let you play offline
+            without creating an account. Progress, settings, and any custom
+            content are stored on your device. Where an App lets you choose
+            photos, they are processed locally; we do not upload them. Apps
+            with online advertising use Google AdMob, which may collect device
+            and advertising data. If you email us, we receive your address and
+            message so we can respond.
+          </p>
+          <p>
+            Some packaged artwork and other assets may have been made with
+            generative AI during development. Our Apps do not send your photos
+            or gameplay to an AI service. Features vary by App; the sections
+            below explain which practices apply.
+          </p>
+        </div>
 
-  <main id="main">
+        <nav class="toc" aria-labelledby="toc-heading">
+          <h2 id="toc-heading">Contents</h2>
+          <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#information-we-collect">Information stored on your device</a></li>
+            <li><a href="#photos-and-custom-content">Photos and custom content</a></li>
+            <li><a href="#automatically-collected-data">Advertising data collected automatically</a></li>
+            <li><a href="#third-party-services">Third-party services</a></li>
+            <li><a href="#generative-ai">Generative AI and app content</a></li>
+            <li><a href="#how-we-use-information">How information is used</a></li>
+            <li><a href="#your-choices">Consent and your advertising choices</a></li>
+            <li><a href="#childrens-privacy">Children&rsquo;s privacy</a></li>
+            <li><a href="#gdpr-rights">EEA, UK, and Swiss privacy rights</a></li>
+            <li><a href="#ccpa-rights">California privacy rights</a></li>
+            <li><a href="#data-retention">Retention and deletion</a></li>
+            <li><a href="#data-security">Security</a></li>
+            <li><a href="#international-transfers">International processing</a></li>
+            <li><a href="#changes">Changes to this policy</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ol>
+        </nav>
 
-    <div class="summary">
-      <h2>In short</h2>
-      <p>
-        Every app we publish works offline. Our apps do not ask you to create an account, they never
-        ask for your name or email, and they send nothing about you to us. The one thing that does
-        collect data is the advertising we use to keep our apps free: Google AdMob. This policy
-        explains exactly what AdMob collects, why, and how you can limit it. It also discloses that
-        some of the artwork and other assets in our apps were created with the help of generative AI
-        tools. This summary is for convenience only &mdash; the full sections below are what applies.
-      </p>
+        <section id="introduction">
+          <h2>1. Introduction</h2>
+          <p>
+            This policy explains how information is handled in Android games
+            and apps published by <b>Pocopie</b> (&ldquo;we&rdquo;,
+            &ldquo;us&rdquo;, or &ldquo;our&rdquo;) that link to this policy
+            from the App or its store listing. We refer to each as an
+            &ldquo;App&rdquo; and collectively as &ldquo;our Apps&rdquo;.
+          </p>
+          <p>
+            Features differ between Apps. Sections about advertising, selected
+            photos, or custom content apply only where the App includes those
+            features. If an App has different data practices, we describe them
+            in an app-specific notice or a separate privacy policy linked from
+            that App or its store listing.
+          </p>
+          <p>
+            The Apps covered here provide offline gameplay without user
+            accounts or in-app purchases. Advertising, opening website links,
+            and sending email require a connection. We do not operate a server
+            that receives your saved gameplay, settings, or selected photos,
+            and we do not provide a cloud-save service.
+          </p>
+          <p>
+            Google Play, advertisers, websites opened from an App, and your
+            device&rsquo;s backup services have their own policies. Reading
+            this policy, using an App, or closing a privacy notice does not
+            grant consent to personalized advertising.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="information-we-collect">
+          <h2>2. Information stored on your device</h2>
+          <p>
+            Depending on its features, an App saves progress, scores,
+            achievements, virtual currency, sound, music, haptic preferences,
+            and advertising reward or frequency counters locally. Apps that
+            support custom content also save its configuration and completion
+            status on your device. These saved records are not sent to us.
+          </p>
+          <h3>Information you send us</h3>
+          <p>
+            If you choose to contact us, we receive your email address and the
+            information you include. We use correspondence to answer your
+            enquiry, handle privacy requests, and keep any records needed for
+            those purposes. We do not add you to a marketing mailing list.
+          </p>
+          <p>
+            Advertising providers may collect information separately, as
+            described in <a href="#automatically-collected-data">Section 4</a>.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="photos-and-custom-content">
+          <h2>3. Photos and custom content</h2>
+          <p>
+            This section applies to Apps that let you choose photos to create
+            custom content, such as a custom puzzle. Using this feature is
+            optional. Selecting a photo opens your device&rsquo;s image picker.
+            Depending on your Android version and device, the system may ask
+            you to allow access to selected photos or media. You can decline
+            and continue using the App&rsquo;s built-in content.
+          </p>
+          <div class="callout">
+            <p>
+              <b>Your selected photos are processed on your device.</b> An App
+              may decode and resize the image and save a copy in its private
+              local storage for the custom content you create. We do not
+              upload that image, share it with AdMob, or send it to an AI
+              service. These photo features do not request camera, microphone,
+              contacts, or precise GPS access.
+            </p>
+          </div>
+          <p>
+            Where an App provides a delete control for custom content, deleting
+            an item removes its saved image copy and associated record. This
+            does not delete the original photo from your device gallery. You
+            can also remove locally saved content by clearing the App&rsquo;s
+            data; see <a href="#data-retention">Section 12</a> for backup and
+            restore considerations.
+          </p>
+          <p>
+            You can manage photo or media access through Android&rsquo;s app
+            permission settings. Labels and available controls vary by device.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="automatically-collected-data">
+          <h2>4. Advertising data collected automatically</h2>
+          <p>
+            In Apps with advertising, when online ads are requested or
+            displayed, Google Mobile Ads (AdMob) may collect and transmit the
+            following information:
+          </p>
+          <dl class="data-list">
+            <div>
+              <dt>IP address and approximate location</dt>
+              <dd>
+                Your IP address and an approximate location inferred from that
+                address, rather than precise GPS access for this purpose.
+              </dd>
+            </div>
+            <div>
+              <dt>Device or account identifiers</dt>
+              <dd>
+                Identifiers such as the Android Advertising ID and, where
+                applicable, other device or account identifiers.
+              </dd>
+            </div>
+            <div>
+              <dt>Ad and app interactions</dt>
+              <dd>
+                Information such as app launches, ad impressions, taps, clicks,
+                and video views.
+              </dd>
+            </div>
+            <div>
+              <dt>Diagnostics and performance</dt>
+              <dd>
+                Device characteristics and information about app or SDK
+                performance, such as crashes, launch times, or other SDK
+                diagnostics.
+              </dd>
+            </div>
+          </dl>
+          <p>
+            Google uses this information to deliver and measure ads, prevent
+            fraud, improve its services, and, where permitted by your choices
+            and applicable rules, personalize advertising. This data flows to
+            Google and its advertising partners. AdMob reporting available to
+            us is generally aggregated, such as impressions and estimated
+            revenue; it is not a database of individual players that we can
+            search or delete.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="third-party-services">
+          <h2>5. Third-party services</h2>
+          <p>
+            Apps with advertising use Google AdMob and Google&rsquo;s User
+            Messaging Platform (UMP) for ads and privacy messages. Ad formats
+            vary by App and may include optional rewarded videos and
+            interstitial ads. Apps with photo features use a local image
+            picker to select images.
+          </p>
+          <p>
+            Our games are built with Unity. We do not separately integrate a
+            gameplay analytics or crash reporting service in the Apps covered
+            by this policy. This does not prevent AdMob from collecting the
+            diagnostics described in Section 4.
+          </p>
+          <p>
+            Google&rsquo;s processing and advertising partners are governed by
+            their own terms and privacy policies. You can read more here:
+          </p>
+          <ul class="links-list">
+            <li>
+              <a href="https://policies.google.com/privacy"
+                target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
+            </li>
+            <li>
+              <a href="https://policies.google.com/technologies/partner-sites"
+                target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use its services</a>
+            </li>
+            <li>
+              <a href="https://support.google.com/admob/answer/9012903"
+                target="_blank" rel="noopener noreferrer">AdMob advertising partners</a>
+            </li>
+          </ul>
+          <h3>This policy website</h3>
+          <p>
+            This policy website is hosted on GitHub Pages. GitHub may process
+            technical information about visits, such as IP addresses, under
+            its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+              target="_blank" rel="noopener noreferrer">Privacy Statement</a>.
+            We do not add advertising, analytics scripts, or tracking cookies
+            to this page.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="generative-ai">
+          <h2>6. Generative AI and app content</h2>
+          <p>
+            Some artwork, icons, backgrounds, audio, or text may have been
+            created or refined with generative AI tools during development.
+            These are packaged assets included with an App.
+          </p>
+          <p>
+            The Apps covered by this policy contain no chat or image-generation
+            service and do not run a generative AI model. Your selected photos
+            and actions in an App are not sent to an AI provider by the App or
+            used by us to train an AI model.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="how-we-use-information">
+          <h2>7. How information is used</h2>
+          <ul>
+            <li>
+              <b>Local app features.</b> Saved data lets you resume progress,
+              remember preferences, use custom content, and manage virtual
+              currency and advertising rewards where those features exist.
+            </li>
+            <li>
+              <b>Advertising.</b> Advertising providers use the data they
+              collect for ad delivery, measurement, personalization where
+              permitted, security, and fraud prevention.
+            </li>
+            <li>
+              <b>Support.</b> Email correspondence is used to respond to you
+              and handle your requests.
+            </li>
+          </ul>
+          <p>
+            We do not sell player data for money or build our own advertising
+            profiles. See <a href="#ccpa-rights">Section 11</a> for how
+            personalized advertising may be treated as sharing under
+            California law.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="your-choices">
+          <h2>8. Consent and your advertising choices</h2>
+          <p>
+            Where required, Google&rsquo;s UMP presents a privacy message in
+            Apps with advertising. Ad requests are gated by the SDK&rsquo;s
+            consent checks. Your choices and regional requirements determine
+            whether ads can be requested and what advertising processing is
+            permitted. Declining consent does not prevent offline gameplay.
+            It does not necessarily mean that every kind of ad can be displayed
+            without consent.
+          </p>
+          <h3>Review or change your choices</h3>
+          <p>
+            When Google requires a privacy-options entry point, the App
+            provides <b>Privacy choices</b> or a similarly named option in its
+            settings or privacy screen. Use it to review or change the choices
+            supported by Google&rsquo;s form. Android Advertising ID controls
+            are separate from withdrawing consent in the App&rsquo;s consent
+            form. This website cannot change the consent choices saved in an
+            installed App.
+          </p>
+          <h3>Device and Google advertising controls</h3>
+          <p>
+            You can also use <b>Android Settings &rarr; Google &rarr; Ads</b>
+            (the path varies by device) to manage or delete the advertising ID
+            where supported, and use
+            <a href="https://adssettings.google.com"
+              target="_blank" rel="noopener noreferrer">Google&rsquo;s advertising preference controls</a>.
+            These controls may limit personalization; they do not guarantee
+            that all advertising data collection stops. Offline play avoids
+            new online ad requests.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="childrens-privacy">
+          <h2>9. Children&rsquo;s privacy</h2>
+          <p>
+            Our Apps are intended for a general audience and do not ask players
+            for a date of birth or create child accounts. We do not knowingly
+            request personal details from children. Children should use our
+            Apps with a parent or guardian&rsquo;s guidance. Do not include a
+            child&rsquo;s personal details in a support email unless needed to
+            handle your enquiry.
+          </p>
+          <p>
+            If you believe a child&rsquo;s data has been collected through
+            advertising, <a href="#contact">contact us</a> and include the
+            App&rsquo;s name. We can explain the App&rsquo;s practices and help
+            direct requests to Google; we cannot search or erase Google&rsquo;s
+            records ourselves. Age and parental-consent requirements depend on
+            location and the service involved.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="gdpr-rights">
+          <h2>10. EEA, UK, and Swiss privacy rights</h2>
+          <p>
+            Where applicable, data protection law gives people in the European
+            Economic Area (EEA), United Kingdom, and Switzerland rights to
+            access, correct, or erase personal data; restrict processing;
+            receive portable data; object to certain processing; withdraw
+            consent; and complain to a supervisory authority. These rights are
+            subject to the conditions and exceptions in applicable law.
+          </p>
+          <p id="legal-basis">
+            Advertising processing may rely on consent where required or other
+            lawful grounds described by the relevant provider. Google determines
+            the grounds for its own processing. Contact us about information
+            we receive through correspondence, or Google about advertising data
+            it holds. We will respond to requests within the applicable legal
+            timeframe and explain any limitations. Withdrawing consent does not
+            undo processing that was lawful before withdrawal.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="ccpa-rights">
+          <h2>11. California privacy rights</h2>
+          <p>
+            Where the California Consumer Privacy Act and California Privacy
+            Rights Act (CCPA/CPRA) apply, California residents may have rights
+            to know or access, delete, or correct personal information; opt out
+            of sale or sharing; and receive non-discriminatory treatment for
+            exercising those rights. Personalized advertising may qualify as
+            sharing for cross-context behavioral advertising even when data is
+            not sold for money.
+          </p>
+          <p>
+            Use <b>Privacy choices</b> in the App when available and
+            Google&rsquo;s privacy controls to manage applicable advertising
+            preferences, as described in <a href="#your-choices">Section 8</a>.
+            Contact us for help or requests about our correspondence. We cannot
+            identify individual advertising records in Google&rsquo;s systems;
+            Google may require its own verification process. Exercising privacy
+            choices does not remove offline gameplay functionality.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="data-retention">
+          <h2>12. Retention and deletion</h2>
+          <p>
+            Progress and settings remain in an App&rsquo;s local storage until
+            cleared or removed. Where an App saves custom content or image
+            copies, these remain until you delete the relevant items using an
+            available in-app control, clear the App&rsquo;s data, or uninstall
+            it. Deleting a saved copy does not delete your original photo.
+          </p>
+          <p>
+            Clearing app data or uninstalling on Android normally removes the
+            App&rsquo;s local files. Device backup or restore services may
+            preserve or restore some data according to your operating system
+            settings and their policies. We do not operate a cloud-save service.
+          </p>
+          <p>
+            Google controls retention of advertising data under its own policies.
+            We do not control its retention periods. Support correspondence is
+            retained only as needed to handle your enquiry and any applicable
+            record-keeping obligations.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="data-security">
+          <h2>13. Security</h2>
+          <p>
+            Saved game records and any custom image copies are stored in the
+            App&rsquo;s local storage. Android&rsquo;s device security and your
+            access and backup settings affect that protection. Advertising
+            providers are responsible for their systems and transmission
+            safeguards. No storage or transmission method can be guaranteed
+            completely secure.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="international-transfers">
+          <h2>14. International processing</h2>
+          <p>
+            Google and its advertising partners may process data outside your
+            country, where laws may differ. Their policies explain the
+            safeguards used for international transfers. We do not upload your
+            saved gameplay or selected photos to a server we operate. Email
+            providers may process support correspondence in other countries
+            under their own policies.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="changes">
+          <h2>15. Changes to this policy</h2>
+          <p>
+            We may revise this policy when our Apps, their services, or relevant
+            requirements change. We update the dates above and publish revised
+            text at <a href="https://pocopie.github.io/">https://pocopie.github.io/</a>.
+            Where an App includes an offline copy, we update that bundled
+            version in an app release. The offline copy reflects the date shown
+            on it; this website may contain a newer revision.
+          </p>
+          <p>
+            Significant changes may also be highlighted in the affected App or
+            its store listing. A feature described here applies only to Apps
+            that include it; a change to one App does not mean every App uses
+            that feature or collects the same data.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="contact">
+          <h2>16. Contact us</h2>
+          <ul>
+            <li><b>Developer:</b> Pocopie</li>
+            <li>
+              <b>Email:</b>
+              <a href="mailto:epallab.biswas@gmail.com">epallab.biswas@gmail.com</a>
+            </li>
+            <li>
+              <b>Policy website:</b>
+              <a href="https://pocopie.github.io/">https://pocopie.github.io/</a>
+            </li>
+          </ul>
+          <p>
+            Please include the game or App&rsquo;s name and enough detail to
+            understand your enquiry. Avoid sending photos or other sensitive
+            information unless necessary. For data held by Google, use its
+            <a href="https://policies.google.com/privacy"
+              target="_blank" rel="noopener noreferrer">privacy policy and request tools</a>;
+            we can assist you in finding them.
+          </p>
+          <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
+        </section>
+      </main>
+
+      <footer class="page-foot">
+        <p>&copy; 2026 Pocopie. All rights reserved.</p>
+        <p>
+          Pocopie games and apps for Android &middot; Contact:
+          <a href="mailto:epallab.biswas@gmail.com">epallab.biswas@gmail.com</a>
+        </p>
+        <p>
+          Google, Google Play, and AdMob are trademarks of Google LLC. Pocopie
+          is not affiliated with or endorsed by Google LLC.
+        </p>
+      </footer>
     </div>
-
-    <nav class="toc" aria-labelledby="toc-heading">
-      <h2 id="toc-heading">Contents</h2>
-      <ol>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#information-we-collect">Information We Collect</a></li>
-        <li><a href="#automatically-collected-data">Automatically Collected Data</a></li>
-        <li><a href="#third-party-services">Third-Party Services</a></li>
-        <li><a href="#generative-ai">Generative AI and In-App Content</a></li>
-        <li><a href="#how-we-use-information">How We Use Information</a></li>
-        <li><a href="#legal-basis">Legal Basis for Processing (GDPR)</a></li>
-        <li><a href="#your-choices">Your Choices and Controls</a></li>
-        <li><a href="#childrens-privacy">Children&rsquo;s Privacy</a></li>
-        <li><a href="#gdpr-rights">Your Rights Under GDPR</a></li>
-        <li><a href="#ccpa-rights">Your Rights Under CCPA/CPRA</a></li>
-        <li><a href="#data-retention">Data Retention</a></li>
-        <li><a href="#data-security">Data Security</a></li>
-        <li><a href="#international-transfers">International Data Transfers</a></li>
-        <li><a href="#changes">Changes to This Privacy Policy</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ol>
-    </nav>
-
-    <section id="introduction">
-      <h2>1. Introduction</h2>
-      <p>
-        This Privacy Policy describes how information is handled in connection with the mobile
-        applications published on the Google Play Store under the developer name <b>Pocopie</b>
-        (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). It applies to every such
-        application (each an &ldquo;App&rdquo;, and together &ldquo;our apps&rdquo;) unless a
-        particular App links to its own separate privacy policy from its store listing. Pocopie is an
-        independent app developer. Our apps are built with the Unity game engine.
-      </p>
-      <p>
-        All of our apps share the same design principles. Each App runs entirely on your device: it
-        does not require an account, a login, or an internet connection to use, and it contains no
-        in-app purchases. We operate no servers, and no App sends information about you to us. Our
-        apps are supported by advertising, which is delivered by Google AdMob and requires an
-        internet connection to display.
-      </p>
-      <p>
-        This policy applies only to our Android applications themselves. It does not apply to the
-        Google Play Store, to advertisers whose ads may appear in an App, or to any website or
-        service you may reach by tapping an ad. Those are governed by their own privacy policies.
-      </p>
-      <p>
-        By installing and using any of our apps, you acknowledge the practices described in this
-        policy. If you do not agree with them, please do not use the App.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="information-we-collect">
-      <h2>2. Information We Collect</h2>
-      <div class="callout">
-        <p>
-          <b>Pocopie does not collect, store, or receive any personally identifiable information
-          from you directly.</b> We operate no servers, no user accounts, and no databases of
-          user information.
-        </p>
-      </div>
-      <p>
-        We never ask you for your name, email address, phone number, postal address, date of birth,
-        photographs, contacts, or payment details, and our apps contain no forms or sign-up screens
-        that could capture them. Your progress, settings, scores, and preferences are stored locally
-        on your own device and are not transmitted to us. Uninstalling an App removes that local data.
-      </p>
-      <p>
-        Information <i>is</i>, however, collected automatically by our third-party advertising
-        partner, <b>Google AdMob</b>, when advertisements are requested and displayed in an App.
-        This collection happens between your device and Google&rsquo;s systems; the data goes to
-        Google, not to us. Section&nbsp;3 lists what is collected and Section&nbsp;4 explains
-        Google&rsquo;s role.
-      </p>
-      <p>
-        Separately, if you choose to email us using the address in Section&nbsp;16, we will
-        necessarily see your email address and whatever you write. We use that only to respond to
-        you and do not add it to any mailing list.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="automatically-collected-data">
-      <h2>3. Automatically Collected Data</h2>
-      <p>
-        To request, display, and measure advertisements, the Google Mobile Ads (AdMob) software
-        development kit integrated into the App may collect and transmit the following categories of
-        data to Google:
-      </p>
-      <dl class="data-list">
-        <div>
-          <dt>Android Advertising ID (AAID)</dt>
-          <dd>
-            A resettable, pseudonymous identifier provided by Google Play services that is used to
-            recognise your device for advertising purposes. It is not your name and is not
-            permanently tied to you &mdash; you can reset or delete it at any time (see
-            Section&nbsp;8).
-          </dd>
-        </div>
-        <div>
-          <dt>IP address and approximate (coarse) location</dt>
-          <dd>
-            Your device&rsquo;s IP address is visible whenever it connects to Google&rsquo;s ad
-            servers, and a coarse location &mdash; typically at the level of a city, region, or
-            country &mdash; may be derived from it. Our apps do not request Android&rsquo;s precise
-            GPS location permission and do not access your exact location.
-          </dd>
-        </div>
-        <div>
-          <dt>Device and technical characteristics</dt>
-          <dd>
-            Device model and manufacturer, Android operating system version, device language and
-            locale settings, screen size, resolution and orientation, network connection type, and
-            similar technical attributes used to select and correctly render an ad.
-          </dd>
-        </div>
-        <div>
-          <dt>Ad interaction data</dt>
-          <dd>
-            Which ads were shown to you (impressions), whether you tapped them (clicks), how long an
-            ad was viewed, whether a rewarded video was watched to completion, and whether an ad was
-            closed or skipped.
-          </dd>
-        </div>
-        <div>
-          <dt>App usage events related to ad serving</dt>
-          <dd>
-            Limited in-app events tied to advertising, such as the App being opened or resumed, the
-            point at which an ad request is made, which ad placement was involved (banner,
-            interstitial, rewarded video, or app open), and the version of the App and the ads SDK
-            in use.
-          </dd>
-        </div>
-      </dl>
-      <p>
-        This data is collected by Google in its capacity as our advertising provider. We receive
-        access only to aggregated, non-identifying reporting &mdash; for example, total impressions,
-        total clicks, and estimated earnings for a given day or country. We cannot see, and are not
-        given, the data of any individual user.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="third-party-services">
-      <h2>4. Third-Party Services</h2>
-      <p>
-        Google AdMob is the only third-party service integrated into our apps that collects data.
-        Our apps contain no social media SDKs, no separate analytics platform, no crash reporting
-        service, and no advertising networks other than those Google works with to fill ad
-        inventory.
-      </p>
-
-      <h3>Google AdMob</h3>
-      <p>
-        AdMob is Google&rsquo;s mobile advertising platform. We use it to show advertisements inside
-        our apps &mdash; depending on the App, these may include banner ads, interstitial
-        (full-screen) ads, rewarded video ads, and app open ads &mdash; and this advertising revenue
-        is what allows us to offer our apps free of charge. When an ad slot needs to be filled, the
-        AdMob SDK on your device sends a request to Google containing the data described in
-        Section&nbsp;3, and Google selects and returns an advertisement.
-      </p>
-      <p>
-        In doing so, Google acts as an independent data controller for the data it collects, and its
-        own privacy policy and terms govern that processing. Google may also share data with, or
-        receive data from, the third-party advertising partners and ad exchanges it works with in
-        order to fill ad inventory. We encourage you to review Google&rsquo;s documentation:
-      </p>
-      <ul class="links-list">
-        <li>
-          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google
-          Privacy Policy</a>
-        </li>
-        <li>
-          <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How
-          Google uses information from sites or apps that use its services</a>
-        </li>
-        <li>
-          <a href="https://support.google.com/admob/answer/9012903" target="_blank" rel="noopener noreferrer">AdMob
-          advertising partners list</a>
-        </li>
-      </ul>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="generative-ai">
-      <h2>5. Generative AI and In-App Content</h2>
-      <p>
-        In the interest of transparency, we want you to know how the content inside our apps is
-        made. Our apps are built with the Unity game engine, and some of the assets they contain
-        &mdash; such as artwork, images, icons, backgrounds, sound effects, music, or text &mdash;
-        were created or refined with the help of generative artificial intelligence tools during
-        development. These assets are static files that are packaged inside each App when it is
-        built and published.
-      </p>
-      <div class="callout">
-        <p>
-          <b>No generative AI model runs inside any of our apps.</b> Our apps contain no AI
-          features, no chat or image-generation functions, and no component that sends your input,
-          images, voice, device data, or anything else to an AI service. Nothing you do in an App is
-          used to train any AI model, by us or by anyone else.
-        </p>
-      </div>
-      <p>
-        This disclosure concerns how our apps were produced; it has no effect on what data is
-        collected while you use them. The only data collection that takes place is the advertising
-        data described in Section&nbsp;3.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="how-we-use-information">
-      <h2>6. How We Use Information</h2>
-      <p>
-        Because we do not receive your personal data, the uses below describe what the data
-        collected through AdMob is used for by Google on our behalf:
-      </p>
-      <ul>
-        <li>
-          <b>Ad delivery.</b> Selecting and serving advertisements that are technically compatible
-          with your device, network, and language.
-        </li>
-        <li>
-          <b>Ad personalization.</b> Where you have given consent, showing ads that Google considers
-          more relevant to you based on your advertising identifier and inferred interests. Without
-          consent, ads are served on a non-personalized basis, using contextual signals rather than
-          your interest profile.
-        </li>
-        <li>
-          <b>Frequency capping.</b> Limiting how often the same ad is repeated to you and spacing
-          out full-screen ads so the App stays usable.
-        </li>
-        <li>
-          <b>Fraud and abuse prevention.</b> Detecting invalid traffic, automated clicks, and other
-          abusive or fraudulent activity that would otherwise harm advertisers and the ad ecosystem.
-        </li>
-        <li>
-          <b>Aggregate analytics and reporting.</b> Producing summary statistics &mdash; impressions,
-          click-through rates, fill rates, and estimated revenue &mdash; that help us understand how
-          each App performs overall and how to improve it. These reports are aggregated and do not
-          identify individual users.
-        </li>
-      </ul>
-      <p>
-        We do not sell your personal information for money, we do not build profiles of users
-        ourselves, and we do not use any of this data to contact you.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="legal-basis">
-      <h2>7. Legal Basis for Processing (GDPR)</h2>
-      <p>
-        If you are located in the European Economic Area, the United Kingdom, or Switzerland, the
-        General Data Protection Regulation requires a lawful basis for processing personal data. The
-        bases relied upon are:
-      </p>
-      <ul>
-        <li>
-          <b>Consent &mdash; Article 6(1)(a).</b> Personalized advertising and the use of your
-          Android Advertising ID for that purpose rely on your consent. Where required, a consent
-          message is presented in the App (using Google&rsquo;s User Messaging Platform) before
-          personalized ads are served, and you may decline or later change your choice. Declining
-          does not prevent you from using the App; it means ads are shown on a non-personalized
-          basis.
-        </li>
-        <li>
-          <b>Legitimate interests &mdash; Article 6(1)(f).</b> Basic service functionality and the
-          prevention of fraud, invalid traffic, and abuse rely on the legitimate interests of
-          Pocopie and of Google in operating a functioning, secure, ad-supported application. Even
-          non-personalized ads require a minimum of data &mdash; such as your IP address and basic
-          device characteristics &mdash; to be delivered at all and to be protected against fraud.
-          We have considered this processing against your rights and consider it proportionate and
-          limited to what is necessary.
-        </li>
-      </ul>
-      <p>
-        You may withdraw consent at any time, as described in Section&nbsp;8, and you may object to
-        processing based on legitimate interests as described in Section&nbsp;10. Withdrawing consent
-        does not affect the lawfulness of processing carried out before the withdrawal.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="your-choices">
-      <h2>8. Your Choices and Controls</h2>
-      <p>
-        You have meaningful control over the advertising data associated with your device. The exact
-        menu names vary slightly between Android versions and manufacturers.
-      </p>
-
-      <h3>Reset or delete your Advertising ID</h3>
-      <p>
-        On your Android device, open <b>Settings &rarr; Google &rarr; All services (or Ads)
-        &rarr; Ads</b>. From there you can:
-      </p>
-      <ul>
-        <li>
-          <b>Reset advertising ID</b> &mdash; replaces your current identifier with a new one,
-          disconnecting your device from any profile previously built against the old ID.
-        </li>
-        <li>
-          <b>Delete advertising ID</b> &mdash; available on Android&nbsp;12 and later, this removes
-          the identifier entirely. Apps requesting it receive a string of zeros, and personalized
-          advertising based on it is no longer possible.
-        </li>
-      </ul>
-
-      <h3>Opt out of ad personalization</h3>
-      <p>
-        The same Android <b>Ads</b> settings screen contains an option to opt out of ad
-        personalization device-wide. You can also manage your preferences for your Google Account at
-        <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">adssettings.google.com</a>.
-        After opting out, you will still see ads in the App &mdash; that is how it stays free &mdash;
-        but they will not be tailored to your interests.
-      </p>
-
-      <h3>Withdraw consent</h3>
-      <p>
-        Where a consent message was shown to you in the App, you can change or withdraw your choice
-        through the privacy or consent option available in the App&rsquo;s settings, where provided.
-        You may also withdraw consent by using the Android controls described above, which apply
-        across all apps on your device, or by contacting us at the address in Section&nbsp;16. If you
-        would prefer that no advertising data be collected from your device at all, the most complete
-        option is to uninstall the App.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="childrens-privacy">
-      <h2>9. Children&rsquo;s Privacy</h2>
-      <p>
-        Our apps are general-audience applications. They are <b>not directed at children under the
-        age of 13</b>, they are not enrolled in the Google Play Families programme, and we do not
-        knowingly collect personal information from children.
-      </p>
-      <p>
-        We comply with the United States <b>Children&rsquo;s Online Privacy Protection Act
-        (COPPA)</b>. Under <b>Article&nbsp;8 of the GDPR</b>, the processing of a child&rsquo;s
-        personal data on the basis of consent is lawful only where the child is at least 16 years
-        old, or a lower age set by the relevant EU member state (not below 13); below that age,
-        consent must be given or authorised by the holder of parental responsibility. We do not
-        knowingly serve personalized advertising to users we know to be below the applicable age.
-      </p>
-      <p>
-        If you are a parent or guardian and believe that a child in your care has used one of our
-        apps and that data about them may have been collected, please contact us at the email
-        address in Section&nbsp;16. Because we hold no user data ourselves, we cannot delete records
-        from our own systems &mdash; there are none &mdash; but we will respond promptly, and we will
-        help you direct a deletion request to Google, which holds the advertising data in question.
-        In the meantime, the fastest and most effective step you can take is to delete or reset the
-        device&rsquo;s Advertising ID and opt out of ad personalization as described in
-        Section&nbsp;8, and to uninstall the App.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="gdpr-rights">
-      <h2>10. Your Rights Under GDPR</h2>
-      <p>
-        If you are in the European Economic Area, the United Kingdom, or Switzerland, you have the
-        following rights in respect of your personal data:
-      </p>
-      <ul>
-        <li><b>Right of access</b> &mdash; to be told whether your personal data is being processed and to obtain a copy of it.</li>
-        <li><b>Right to rectification</b> &mdash; to have inaccurate personal data corrected and incomplete data completed.</li>
-        <li><b>Right to erasure</b> &mdash; to have your personal data deleted where the legal grounds for holding it no longer apply.</li>
-        <li><b>Right to restriction of processing</b> &mdash; to limit how your data is used in certain circumstances, for example while the accuracy of the data is contested.</li>
-        <li><b>Right to data portability</b> &mdash; to receive data you provided in a structured, commonly used, machine-readable format, and to have it transmitted to another controller where technically feasible.</li>
-        <li><b>Right to object</b> &mdash; to object at any time to processing based on legitimate interests, and to object absolutely to the use of your data for direct marketing, which includes personalized advertising.</li>
-        <li><b>Right to withdraw consent</b> &mdash; to withdraw consent at any time where processing is based on it, without affecting processing already carried out.</li>
-        <li><b>Right to lodge a complaint</b> &mdash; to complain to the data protection supervisory authority in your country of residence, place of work, or the place where you believe an infringement occurred.</li>
-      </ul>
-      <p>
-        You may contact us at the address in Section&nbsp;16 to exercise these rights and we will
-        respond within the period required by law, normally one month. Please note an important
-        practical limitation: the advertising data described in this policy is held by Google, not by
-        us, and we have no ability to look up, export, or delete the records of an individual user.
-        For requests concerning that data, you should contact Google directly through the mechanisms
-        described in the
-        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google
-        Privacy Policy</a>. We will assist you in doing so wherever we can.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="ccpa-rights">
-      <h2>11. Your Rights Under CCPA/CPRA</h2>
-      <p>
-        If you are a California resident, the California Consumer Privacy Act as amended by the
-        California Privacy Rights Act gives you the following rights:
-      </p>
-      <ul>
-        <li><b>Right to know</b> &mdash; to request the categories and specific pieces of personal information collected about you, the sources, the business purpose, and the categories of third parties it is disclosed to. The categories relevant to our apps are set out in Section&nbsp;3.</li>
-        <li><b>Right to delete</b> &mdash; to request deletion of personal information collected from you, subject to legal exceptions.</li>
-        <li><b>Right to correct</b> &mdash; to request correction of inaccurate personal information.</li>
-        <li><b>Right to opt out of the sale or sharing</b> &mdash; to direct that your personal information not be sold or shared for cross-context behavioral advertising.</li>
-        <li><b>Right to non-discrimination</b> &mdash; to not be denied service or given a lesser experience for exercising these rights.</li>
-      </ul>
-
-      <h3>Do Not Sell or Share My Personal Information</h3>
-      <p>
-        <b>Pocopie does not sell your personal information for money, and never has.</b> However,
-        the CPRA defines &ldquo;sharing&rdquo; broadly to include disclosing personal information to
-        a third party for cross-context behavioral advertising. The use of personalized advertising
-        through Google AdMob may fall within that definition of &ldquo;sharing&rdquo;.
-      </p>
-      <p>
-        You can exercise your right to opt out immediately and without contacting anyone, by opting
-        out of ad personalization in your Android <b>Settings &rarr; Google &rarr; Ads</b> screen, by
-        deleting or resetting your Advertising ID, or through
-        <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ad
-        Settings</a>. Full instructions are in Section&nbsp;8. You may also email us at the address in
-        Section&nbsp;16 and we will confirm the steps and assist you. Opting out will not reduce the
-        functionality of the App in any way.
-      </p>
-      <p>
-        We do not have a mechanism to identify you as an individual, so we may be unable to verify a
-        request to know or delete specific pieces of information; in that case we will explain why
-        and point you to Google, which holds the data.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="data-retention">
-      <h2>12. Data Retention</h2>
-      <p>
-        Pocopie retains no personal data about users, so there is nothing on our side to retain or
-        delete. Your progress and settings remain on your device for as long as the App is installed
-        and are removed when you uninstall it.
-      </p>
-      <p>
-        The advertising data described in Section&nbsp;3 is retained by <b>Google in accordance with
-        its own data retention policies</b>, which are set out in the
-        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google
-        Privacy Policy</a>. Retention periods differ by data type: some log data is kept for a
-        defined period before being anonymised or deleted, and some is held in aggregated form that
-        no longer identifies a device. We do not control these periods and cannot shorten or extend
-        them.
-      </p>
-      <p>
-        Any email correspondence you send us is kept only as long as needed to deal with your enquiry
-        and is then deleted.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="data-security">
-      <h2>13. Data Security</h2>
-      <p>
-        We take reasonable and appropriate measures to keep our apps safe: we publish them only
-        through the official Google Play Store, we keep the Google Mobile Ads SDK and the Unity
-        engine updated to supported versions, we request no Android permissions beyond those needed
-        to display ads, and we store no user data on any server we operate &mdash; which removes an
-        entire category of risk.
-      </p>
-      <p>
-        Advertising traffic between your device and Google is transmitted over encrypted connections,
-        and the security of that data once it reaches Google is governed by Google&rsquo;s own
-        infrastructure and security practices.
-      </p>
-      <p>
-        We should be honest with you, however: <b>no method of transmission over the internet and no
-        method of electronic storage is completely secure.</b> While we take reasonable steps to
-        protect information, we cannot guarantee absolute security, and we make no claim to hold any
-        formal security certification.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="international-transfers">
-      <h2>14. International Data Transfers</h2>
-      <p>
-        Google operates a global infrastructure. The advertising data collected through our apps may
-        therefore be transferred to, stored in, and processed on servers located outside your country
-        or region of residence &mdash; including in the United States &mdash; where data protection
-        laws may differ from those where you live.
-      </p>
-      <p>
-        Where data is transferred out of the European Economic Area, the United Kingdom, or
-        Switzerland, Google states that it relies on appropriate safeguards such as the European
-        Commission&rsquo;s Standard Contractual Clauses and applicable adequacy decisions. Details of
-        these transfer mechanisms are described in the
-        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google
-        Privacy Policy</a>. As Pocopie holds no user data, we carry out no international transfers of
-        our own.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="changes">
-      <h2>15. Changes to This Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time &mdash; for example if we add or change a
-        third-party service, if an App&rsquo;s functionality changes, or if the law or Google Play
-        policy requires it. Because this single policy covers all of our apps, a change made in
-        respect of one App applies to all of them.
-      </p>
-      <p>
-        When we do, we will post the revised policy at this address and update the <b>Last
-        Updated</b> and <b>Effective</b> dates shown at the top of the page. The current effective
-        date is <b>16 September 2026</b>. Changes take effect as soon as the revised policy is
-        posted, and we encourage you to review this page periodically. If a change is significant
-        &mdash; for instance, if a new category of data begins to be collected &mdash; we will make a
-        reasonable effort to draw attention to it, such as through a notice in the App or in the
-        Google Play store listing. Continuing to use any of our apps after a revision means you
-        acknowledge the updated policy.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-    <hr class="divider">
-
-    <section id="contact">
-      <h2>16. Contact Us</h2>
-      <p>
-        If you have questions about this Privacy Policy, want to exercise any of the rights described
-        above, or need help with an advertising-related request, please get in touch:
-      </p>
-      <ul>
-        <li><b>Developer:</b> Pocopie</li>
-        <li><b>Email:</b> <a href="mailto:epallab.biswas@gmail.com">epallab.biswas@gmail.com</a></li>
-        <li><b>Policy address:</b> <a href="https://pocopie.github.io/">https://pocopie.github.io/</a></li>
-      </ul>
-      <p>
-        We aim to reply to every genuine enquiry, and to respond to privacy rights requests within
-        the timeframe required by applicable law. Because this policy covers several apps, please
-        include the name of the App your message relates to so we can identify what your request
-        concerns.
-      </p>
-      <p><a class="to-top" href="#main">&uarr; Back to top</a></p>
-    </section>
-
-  </main>
-
-  <footer class="page-foot">
-    <p>&copy; 2026 Pocopie. All rights reserved.</p>
-    <p>
-      Pocopie apps for Android &middot; Contact:
-      <a href="mailto:epallab.biswas@gmail.com">epallab.biswas@gmail.com</a>
-    </p>
-    <p>
-      Google, Google Play, and AdMob are trademarks of Google LLC. Pocopie is not affiliated with or
-      endorsed by Google LLC.
-    </p>
-  </footer>
-
-</div>
-</body>
+  </body>
 </html>
